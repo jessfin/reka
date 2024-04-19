@@ -34,7 +34,7 @@ async def fetch(req):
     }
 
     # 处理请求数据
-    url = "https://chat.reka.ai/api/chat"  # 你的URL
+    url = "https://chat.reka.ai/api/chat"
     token = req.headers.get('Authorization', '')  # 从请求头中获取授权令牌
     headers = {
         'Content-Type': 'application/json',
